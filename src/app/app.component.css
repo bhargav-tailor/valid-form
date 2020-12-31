@@ -1,0 +1,118 @@
+/*.container-fluid{*/
+/*  width: 100%;*/
+/*  height: 100vh;*/
+/*  background-color: #f0f2f5;*/
+/*}*/
+/*.left-text{*/
+/*  width: 100%;*/
+/*  height: 100vh;*/
+/*}*/
+/*.left-text h1{*/
+/*  margin-top: 280px;*/
+/*  text-align: left;*/
+/*  font-size: 50px;*/
+/*  font-weight: bold;*/
+/*  color:#1877f2 ;*/
+/*  font-family: 'Patua One', cursive;*/
+/*}*/
+/*.left-text h2{*/
+/*  text-align: left;*/
+/*  font-family: "Arial Black";*/
+/*}*/
+/*.form{*/
+/*  margin-top: 200px;*/
+/*}*/
+/*.form-back{*/
+/*  background-color: white;*/
+/*  border-radius: 20px;*/
+/*  padding: 30px;*/
+/*  box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);*/
+/*}*/
+/*.form input{*/
+/*  margin-bottom: 10px;*/
+/*}*/
+/*.form a{*/
+/*  margin-top: 10px;*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*}*/
+/*.create-btn{*/
+/*  margin-left:130px ;*/
+/*}*/
+/*.text{*/
+/*  margin-left: 130px;*/
+/*}*/
+/*.container-fluid{*/
+/*  width: 100%;*/
+/*  height: 100vh;*/
+/*  background-color:#f0f2f5 ;*/
+/*}*/
+/*.left_text{*/
+/*  width: 100%;*/
+/*  height: 100vh;*/
+/*  display: flex;*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*}*/
+/*.left_text strong{*/
+/*  font-size: 50px;*/
+/*  font-family: 'Patua One', cursive;*/
+/*  color: #007bff;*/
+/*}*/
+/*.left_text h1{*/
+/*  font-size: 20px;*/
+/*  font-family: "Arial Black";*/
+/*}*/
+/*.right_content{*/
+/*  background-color: white;*/
+/*  padding: 25px;*/
+/*  border-radius: 10px;*/
+/*  box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);*/
+/*  margin-left: 100px;*/
+/*}*/
+/*.right_content a{*/
+/*  margin-top: 5px;*/
+/*  display: flex;*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*}*/
+/*.create-btn{*/
+/* margin-left: 50px;*/
+/*}*/
+
+/*@media (max-width: 768px) {*/
+/*  .left_text{*/
+/*    padding: 10px;*/
+/*    text-align: center;*/
+/*    display: block;*/
+/*  }*/
+/*.right_content{*/
+/*    margin-left: 20px;*/
+/*  }*/
+/*}*/
+/*@media (max-width: 568px) {*/
+/*  .left_text{*/
+/*    padding: 10px;*/
+/*    text-align: center;*/
+/*    display: block;*/
+/*  }*/
+/*  .create-btn{*/
+/*    margin-left: 0px;*/
+/*    font-size: 10px;*/
+/*  }*/
+/*}*/
+/*@media (max-width: 1023px) {*/
+/*  .left_text{*/
+/*    padding: 10px;*/
+/*    text-align: center;*/
+/*    display: block;*/
+/*  }*/
+/*  .right_content{*/
+/*    margin-left: 20px;*/
+/*  }*/
+/*}*/
+.btn{
+  color: #1976d2;
+  font-weight: bold ;
+}

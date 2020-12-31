@@ -1,0 +1,90 @@
+<!--<div class="container-fluid">-->
+<!-- <div class=" container row col">-->
+<!--   <div class="col-1"></div>-->
+<!--   <div class="col-6 left-text">-->
+<!--     <h1>Facebook</h1>-->
+<!--     <h2>Facebook helps you connect and share with the people in your life.</h2>-->
+<!--   </div>-->
+<!--   <div class="col-5 right-content">-->
+<!--      <div class="row form">-->
+<!--        <div class="col-12 form-back">-->
+<!--          <input class="form-control" type="text" placeholder="Email address or phone number">-->
+<!--          <input class="form-control" type="text" placeholder="Password">-->
+<!--          <button class="btn btn-primary btn-lg col-12">Login In</button>-->
+<!--          <a href="#">Forgotten password?</a>-->
+<!--          <hr>-->
+<!--          <button class="btn btn-success btn-lg create-btn">Create New Account</button>-->
+<!--        </div>-->
+<!--        <div class="text">-->
+<!--          <a><strong>Create a Page</strong> for a celebrity, band or business.</a>-->
+<!--        </div>-->
+
+<!--      </div>-->
+<!--   </div>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="container-fluid left_content ">-->
+<!--  <div class="container left_text">-->
+<!--    <h1><strong>Facebook</strong><br>Facebook helps you connect and share<br>with the people in your life.</h1>-->
+<!--    <form #userForm="ngForm" (ngSubmit)="onSubmit(userForm.value)" >-->
+<!--      <div class="form right_content">-->
+<!--      <input [(ngModel)]="email" class="form-control" type="text" name="Email" placeholder="Email address or phone number"><br>-->
+<!--      <input [(ngModel)]="password" class="form-control" name="password" type="password" placeholder="password"><br>-->
+<!--      <button class="btn btn-primary col-12">Log In</button><br>-->
+<!--      <a href="#">Forgotten password?</a>-->
+<!--      <hr>-->
+<!--      <button class="btn btn-success col-8 create-btn">Create New Account</button>-->
+<!--      <div>-->
+<!--        <a>Create a Page for a celebrity, band or business.</a>-->
+<!--      </div>-->
+<!--      </div>-->
+<!--    </form>-->
+<!--  </div>-->
+<!--</div>-->
+  <form #simpleForm = "ngForm">
+    <div class="p-5">
+      <div>
+        <label for="name">Name:</label>
+        <input [(ngModel)]="name" id="name" type="text" name="name">
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input [(ngModel)]="email" id="email" type="text" name="email">
+      </div>
+      <div>
+        <label for ="number" >Phone Number:</label>
+        <input [(ngModel)]="number" id="number" type="number" name="number">
+      </div>
+      <div>
+        <label for="address">Address:</label>
+        <textarea type="text" [(ngModel)]="address" name="address" id="address"></textarea>
+      </div>
+      <button class="btn btn-primary btn-dark" (click)="onSubmit(simpleForm.value)">Submit</button>
+    </div>
+  </form>
+
+<table class="table">
+  <thead>
+  <tr>
+    <th scope="col">Sr.</th>
+    <th scope="col">Name</th>
+    <th scope="col">Email</th>
+    <th scope="col">Phone Number</th>
+    <th scope="col">Address</th>
+    <th scope="col">Action</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr  *ngFor="let item of value;let i = index">
+    <th scope="row">{{i+1}}</th>
+    <td>{{item.name}}</td>
+    <td>{{item.email}}</td>
+    <td>{{item.number}}</td>
+    <td>{{item.address}}</td>
+    <td><button (click)="edit(i, item)">Edit</button><button (click)="delete(i,item)">delete</button></td>
+  </tr>
+  </tbody>
+</table>
+
+
+
