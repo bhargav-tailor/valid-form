@@ -21,7 +21,6 @@ import { ProductAlertsComponent } from './product-alerts/product-alerts.componen
         FormsModule,
         HttpClientModule,
         ReactiveFormsModule,
-
     ],
   providers: [],
   bootstrap: [AppComponent]
